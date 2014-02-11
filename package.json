@@ -2,12 +2,14 @@
   "name": "grunt-starter",
   "version": "0.0.0",
   "description": "provides starting point for basic front end dev projects",
-  "main": "Gruntfile.js",
+  "main": "Gruntfile.coffee",
   "dependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-connect": "~0.6.0"
+    "grunt": "~0.4.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "grunt-contrib-connect": "~0.6.0",
+    "grunt-contrib-watch": "~0.5.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

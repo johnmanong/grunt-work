@@ -8,16 +8,19 @@ TODO
     npm init
 
 - install grunt
-    npm install grunt --save dev
+    npm install grunt
 
 - install grunt conntect
     npm install grunt-contrib-connect --save-dev
+
+- install grunt watch*
+    npm install grunt-contrib-watch --save-dev
 
 - install grunt coffee*
 
 - install grunt sass*
 
-- install grunt watch*
+
 
 - install grunt haml**
 
@@ -28,3 +31,4 @@ To start the server: `grunt connect:keepalive`
 
 # Rerferences 
 - https://github.com/gruntjs/grunt-contrib-connect
+- https://github.com/gruntjs/grunt-contrib-watch
