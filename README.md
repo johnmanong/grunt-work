@@ -4,7 +4,7 @@ This project serves as a starting point for front end projects, and uses Grunt t
 # Setup
 TODO
 
-- initialize node app
+- initialize node app and follow prompt
     npm init
 
 - install grunt
@@ -13,6 +13,17 @@ TODO
 - install grunt conntect
     npm install grunt-contrib-connect --save-dev
 
+- install grunt coffee*
+
+- install grunt sass*
+
+- install grunt watch*
+
+- install grunt haml**
+
+
+# Usage
+To start the server: `grunt connect:keepalive`
 
 
 # Rerferences 
