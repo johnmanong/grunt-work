@@ -23,6 +23,8 @@ module.exports = (grunt) ->
         src: ['**/*.coffee']
         dest: 'app/scripts/build'
         ext: '.js'
+        options:
+          sourceMap: true
 
   grunt.loadNpmTasks('grunt-contrib-connect')
   grunt.loadNpmTasks('grunt-contrib-watch')

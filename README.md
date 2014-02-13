@@ -20,7 +20,7 @@ TODO
 - install grunt sass*
 
 
-- install grunt coffee*
+- install grunt coffee
     npm install grunt-contrib-coffee --save-dev
 
 - install grunt haml**
