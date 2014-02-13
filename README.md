@@ -3,30 +3,38 @@ This project serves as a starting point for front end projects, and uses Grunt t
 
 # Setup
 TODO
+## Node
 
 - initialize node app and follow prompt
     npm init
 
 - install grunt
-    npm install grunt
+    npm install grunt --save-dev
 
 - install grunt conntect
     npm install grunt-contrib-connect --save-dev
 
-- install grunt watch*
+- install grunt watch
     npm install grunt-contrib-watch --save-dev
-
-- install grunt coffee*
 
 - install grunt sass*
 
 
+- install grunt coffee*
+    
 
 - install grunt haml**
 
+## Ruby
+
+To get source maps to work, only certain edge SASS gems will work. I recommend the following
+
+    gem install sass -v '3.3.0.rc2'
+
 
 # Usage
-To start the server: `grunt connect:keepalive`
+- To start watcher: `grunt watch`
+- To start the server: `grunt connect:keepalive`
 
 
 # Rerferences 
