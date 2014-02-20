@@ -1,11 +1,11 @@
 # Summary
-This project serves as a starting point for front end projects, and uses Grunt to setup a simple server, and support common preprocessors (SASS, CoffeeScript, Haml)
+This project serves as a starting point for front end projects, and uses Grunt to setup a simple server, and support common preprocessors (SASS, CoffeeScript, Haml (todo))
 
 # Setup
-TODO
 ## Node
 
 - initialize node app and follow prompt
+    
     npm init
 
 - install grunt
@@ -38,3 +38,4 @@ Run default task: `grunt`. This will start a local server on port 8000, compile 
 # Rerferences 
 - https://github.com/gruntjs/grunt-contrib-connect
 - https://github.com/gruntjs/grunt-contrib-watch
+- (grunt-contrib-sass)[https://github.com/gruntjs/grunt-contrib-sass]
