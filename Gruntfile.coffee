@@ -15,6 +15,8 @@ module.exports = (grunt) ->
         tasks: [ 'coffee']
       css:
         files: [ 'app/stylesheets/**/*.scss']
+        tasks: [ 'sass' ]
+
     coffee:
       glob_to_multiple:
         expand: true
@@ -25,13 +27,27 @@ module.exports = (grunt) ->
         ext: '.js'
         options:
           sourceMap: true
+    sass:
+      dist:
+        options:
+          sourcemap: true
+        files: [
+          expand: true
+          cwd: 'app/stylesheets'
+          src: ['**/*.scss']
+          dest: 'app/stylesheets/build'
+          ext: '.css'
+        ]
+
 
   grunt.loadNpmTasks('grunt-contrib-connect')
   grunt.loadNpmTasks('grunt-contrib-watch')
   grunt.loadNpmTasks('grunt-contrib-coffee')
+  grunt.loadNpmTasks('grunt-contrib-sass')
 
   grunt.registerTask 'default',[
     'coffee:glob_to_multiple'
+    'sass:dist'
     'connect:server'
     'watch'
   ]

@@ -17,13 +17,12 @@ TODO
 - install grunt watch
     npm install grunt-contrib-watch --save-dev
 
-- install grunt sass*
-
+- install grunt sass
+    npm install grunt-contrib-sass --save-dev
 
 - install grunt coffee
     npm install grunt-contrib-coffee --save-dev
 
-- install grunt haml**
 
 ## Ruby
 
@@ -33,8 +32,7 @@ To get source maps to work, only certain edge SASS gems will work. I recommend t
 
 
 # Usage
-- To start watcher: `grunt watch`
-- To start the server: `grunt connect:keepalive`
+Run default task: `grunt`. This will start a local server on port 8000, compile css/js assets, and start watch task for live reload.
 
 
 # Rerferences 
