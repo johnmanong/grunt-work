@@ -33,7 +33,7 @@ Install grunt coffee
 
 To get source maps to work, only certain edge SASS gems will work. I recommend the following
 
-    gem install sass -v '3.3.0.rc2'
+    gem install sass -v '3.3.3'
 
 
 # Usage
