@@ -4,29 +4,13 @@ This project serves as a starting point for front end projects, and uses Grunt t
 # Setup
 ## Node
 
-In directory initialize node app and follow prompt
-    
-    npm init
-
 Install grunt
     
     npm install -g grunt-cli
 
-Install grunt conntect
+Install dev modules
  
-    npm install grunt-contrib-connect --save-dev
-
-Install grunt watch
- 
-    npm install grunt-contrib-watch --save-dev
-
-Install grunt sass
- 
-    npm install grunt-contrib-sass --save-dev
-
-Install grunt coffee
- 
-    npm install grunt-contrib-coffee --save-dev
+    npm install
 
 
 ## Ruby
