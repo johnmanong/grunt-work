@@ -10,7 +10,7 @@ In directory initialize node app and follow prompt
 
 Install grunt
     
-    npm install grunt --save-dev
+    npm install -g grunt-cli
 
 Install grunt conntect
  
