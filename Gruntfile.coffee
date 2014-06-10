@@ -4,6 +4,7 @@ module.exports = (grunt) ->
     connect:
       server:
         options:
+          base: 'app/'
           livereload: true
           port: 8000
 
@@ -11,8 +12,8 @@ module.exports = (grunt) ->
       options:
         livereload: true
       scripts:
-        files: [ 'app/scripts/**/*.coffee', 'app/main.html' ]
-        tasks: [ 'coffee']
+        files: [ 'app/scripts/**/*.coffee', 'app/index.html' ]
+        tasks: [ 'coffee' ]
       css:
         files: [ 'app/stylesheets/**/*.scss']
         tasks: [ 'sass' ]
