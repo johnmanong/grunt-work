@@ -1,24 +1,36 @@
-* {
-  box-sizing: border-box;
+@mixin colorize {
+  $color: pink;
+  color: $color;
 }
 
-body {
-  background-color: lightgrey;
-  margin: 0;
+$color: red;
+
+.first {
+  // $color: red;
+  color: $color;
 }
 
-h1 {
-  background-color: grey;
-  box-shadow: 0 1px 8px black;
-  color: white;
-  font-family: courier;
-  font-weight: 400;
-  margin: 0;
-  margin-bottom: 0.5em;
-  padding: 0.5em;
+.second {
+  $color: blue;
+  color: $color;
 }
 
-.container {
-  font-family: courier;
-  margin: 0.5em;
+.third {
+  // $color: red;
+  color: $color;
+}
+
+.fourth {
+  @include colorize();
+}
+
+.fifth {
+//  $color: purple;
+  color: $color;
+}
+
+$color: purple;
+
+.sixth {
+  color: $color;
 }
