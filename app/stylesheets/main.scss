@@ -2,23 +2,48 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: lightgrey;
+$color-white: #fff;
+$color-black: #000;
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
   margin: 0;
 }
 
-h1 {
-  background-color: grey;
-  box-shadow: 0 1px 8px black;
-  color: white;
-  font-family: courier;
-  font-weight: 400;
-  margin: 0;
-  margin-bottom: 0.5em;
-  padding: 0.5em;
+html {
+  background: url('/images/foilage.jpg') center center no-repeat;
+  background-color: $color-black;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-  font-family: courier;
-  margin: 0.5em;
+a {
+  color: $color-white;
+
+  &:visited {
+    color: $color-white;
+  }
+}
+
+.contact-info {
+  $contact-size: 300px;
+  font-size: 18px;
+  font-weight: 300;
+  background-color: $color-black;
+  position: absolute;
+  height: $contact-size;
+  width: $contact-size;
+  top: 50%;
+  left: 50%;
+  margin-top: -$contact-size/2;
+  margin-left: -$contact-size/2;
+  color: $color-white;
+  line-height: 1.7;
+  letter-spacing: 1px;
+
+  padding: 6em 2em;
+  box-shadow:
+    0 0 0 1px $color-white,
+    0 0 0 .9em $color-black;
 }
