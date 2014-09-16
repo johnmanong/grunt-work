@@ -4,6 +4,7 @@
 
 $color-white: #fff;
 $color-black: #000;
+$font-size: 18px;
 
 html, body {
   height: 100%;
@@ -18,17 +19,10 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-a {
-  color: $color-white;
-
-  &:visited {
-    color: $color-white;
-  }
-}
 
 .contact-info {
   $contact-size: 300px;
-  font-size: 18px;
+  font-size: $font-size;
   font-weight: 300;
   background-color: $color-black;
   position: absolute;
@@ -42,8 +36,19 @@ a {
   line-height: 1.7;
   letter-spacing: 1px;
 
-  padding: 6em 2em;
+  padding: ($contact-size/2 - $font-size) 0;
   box-shadow:
     0 0 0 1px $color-white,
     0 0 0 .9em $color-black;
+
+  a {
+    color: $color-white;
+    display: block;
+    text-align: center;
+
+    &:visited {
+      color: $color-white;
+    }
+  }
+
 }
