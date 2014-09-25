@@ -31,15 +31,15 @@ Run default task: `grunt`. This will start a local server on port 8000, compile 
 #### Setup
 ##### Install Module globally
 
-    `npm install -g takana`
+    npm install -g takana
     
 ##### Add snippet to head
 
-    `<script type="text/javascript" src="http://localhost:48626/takana.js"></script>`
+    <script type="text/javascript" src="http://localhost:48626/takana.js"></script>
     
 ##### Start process (parallel with grunt)
     
-    `takana app/`
+    takana app/
 
 
 
