@@ -23,6 +23,25 @@ To get source maps to work, only certain edge SASS gems will work. I recommend t
 # Usage
 Run default task: `grunt`. This will start a local server on port 8000, compile css/js assets, and start watch task for live reload.
 
+## optional
+
+### Use Takana
+[Takana](http://usetakana.com/) live reloads scss/css on change, not save, which can make dev even faster. 
+
+#### Setup
+##### Install Module globally
+
+    `npm install -g takana`
+    
+##### Add snippet to head
+
+    `<script type="text/javascript" src="http://localhost:48626/takana.js"></script>`
+    
+##### Start process (parallel with grunt)
+    
+    `takana app/`
+
+
 
 # Rerferences
 - [Node.js](http://nodejs.org/)
@@ -31,3 +50,4 @@ Run default task: `grunt`. This will start a local server on port 8000, compile 
 - [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)
 - [grunt-contrib-sass](https://github.com/gruntjs/grunt-contrib-sass)
 - [grunt-contrib-coffee](https://github.com/gruntjs/grunt-contrib-coffee)
+- [takana](https://github.com/mechio/takana)
