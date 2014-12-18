@@ -2,3 +2,4 @@
 node_modules/*
 app/scripts/build/*
 app/stylesheets/build/*
+**/.DS_Store
