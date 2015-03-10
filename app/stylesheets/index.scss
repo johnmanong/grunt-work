@@ -3,14 +3,11 @@
 }
 
 body {
-  background-color: lightgrey;
   margin: 0;
 }
 
 h1 {
-  background-color: grey;
-  box-shadow: 0 1px 8px black;
-  color: white;
+  box-shadow: 0 1px 8px rgba(grey, .5);
   font-family: courier;
   font-weight: 400;
   margin: 0;
